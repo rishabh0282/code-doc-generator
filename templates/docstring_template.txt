@@ -1,0 +1,11 @@
+{signature}
+
+Context:
+{doc}
+
+Write a concise, typed docstring following Google style.{signature}
+
+Context:
+{doc}
+
+Write a concise, typed docstring following Google style.

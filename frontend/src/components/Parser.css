@@ -1,0 +1,105 @@
+.parser-container {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.parser-container h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.parser-container form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+}
+
+.parser-container input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 300px;
+}
+
+.parser-container button {
+  padding: 8px 16px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.parser-container button:hover:not(:disabled) {
+  background: #45a049;
+}
+
+.parser-container button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.error-message {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: 1px solid #f5c6cb;
+}
+
+.loading {
+  background: #d1ecf1;
+  color: #0c5460;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: 1px solid #bee5eb;
+}
+
+.result-box {
+  background: white;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.result-box h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.result-box pre {
+  background: #f5f5f5;
+  padding: 12px;
+  border-radius: 4px;
+  overflow-x: auto;
+  max-height: 400px;
+  overflow-y: auto;
+  font-size: 12px;
+}

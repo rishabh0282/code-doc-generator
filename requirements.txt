@@ -1,0 +1,12 @@
+langchain-openai
+langchain
+openai
+sentence-transformers
+faiss-cpu
+fastapi
+uvicorn
+python-multipart
+PyPDF2
+python-docx
+python-dotenv
+pydantic
